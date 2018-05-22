@@ -54,7 +54,8 @@ ORDER BY num_views DESC;
 View returning dates and percentage of errors
 ```
 CREATE VIEW error_day_stats AS
-SELECT time::timestamp::date days, ROUND(100.0 * (SUM(CASE WHEN status !='200 OK' THEN 1 ELSE 0 END) /COUNT(status)::decimal),2) percent_error
+SELECT time::timestamp::date days,
+ROUND(100.0 * (SUM(CASE WHEN status !='200 OK' THEN 1 ELSE 0 END) /COUNT(status)::decimal),2) percent_error
 FROM log l
 GROUP BY days
 ORDER BY percent_error DESC;
