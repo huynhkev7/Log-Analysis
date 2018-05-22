@@ -14,7 +14,7 @@ VirtualBox is the software that actually runs the virtual machine. You can downl
 ### Installing Vagrant
 Vagrant is the software that configures the VM and lets you share files between your host computer and the VM's filesystem. You can download it [here](https://www.vagrantup.com/downloads.html). Install the version for your operating system.
 ### Download the News Data
-Download the news data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). You will need to unzip this file after downloading it. The file inside is called newsdata.sql
+Download the news data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). You will need to unzip this file after downloading it. The file inside is called ```newsdata.sql```.
 ### Download the VM configuration
 Download the VM configuration by forking or cloning the Udacity [fullstack-nanodegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm)
 ## How to Use
