@@ -1,9 +1,9 @@
 # Project 3: Log Analysis
-### By Kevin Huynh
 This Python program is a reporting tool that prints out a neatly formatted summary of data for a newspaper site. Based on logs from the newspaper database, the report answers the following important questions:
 - What are the most popular three articles of all time?
 - what are the most popular three articles of all time?
 - On which days did more than 1% of requests lead to errors?
+
 This project is an assignment for the [Udacity Full Stack Web Developer Nanodegree course](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). 
 ## Prequisites
 In order to run project, the following steps will need to be done.
