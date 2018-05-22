@@ -27,8 +27,8 @@ Download the VM configuration by forking or cloning the Udacity [fullstack-nanod
 7. In order for the reporting tool to work, you will need to create the following views in the ```news``` database. Run the following commands under the **Create the Views Using PostgreSQL (PSQL)** section to create the views.
 8. Run the reporting tool with the following command: ```python log.py```
 9. Answers to the reporting questions should be printed to the console, as well as a text file called ```output.txt```
-### Create the Views Using PostgreSQL (PSQL)
-#### popular_articles view
+## Create the Views Using PostgreSQL (PSQL)
+### popular_articles view
 View returning article title, author, and number of views
 ```
 CREATE OR REPLACE VIEW popular_articles AS
